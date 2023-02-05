@@ -111,14 +111,30 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/vivekjaju/DTweet.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+NOSTR (Notes and Other Stuff Relays) protocol
+
+https://github.com/fiatjaf/nostr
+
+Installing Nostr-twitter
+
+Install Quasar
+
+npm install -g @quasar/cli
+Install the dependencies
+
+npm install
+Start the app in development mode (hot-code reloading, error reporting, etc.)
+
+quasar dev
+Start the app in development mode as PWA (hot-code reloading, error reporting, etc.)
+
+quasar dev -m pwa
+Build the app for production
+
+quasar build
+Build the app for production as PWA
+
+quasar build pwa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,3 +155,4 @@ Name - Ayush Bhandarkar
 Project Link: [https://github.com/vivekjaju/DTweet](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+

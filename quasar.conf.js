@@ -107,8 +107,8 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `Nostr - Decentralised Twitter`,
-        short_name: `Nostr`,
+        name: `Dtweet - Decentralised Twitter`,
+        short_name: `Dtweet`,
         description: `280 character limited social network using the nostr protocol`,
         display: 'standalone',
         orientation: 'portrait',
